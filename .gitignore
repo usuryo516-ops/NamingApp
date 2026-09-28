@@ -216,3 +216,23 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# =========================================
+# NamingApp: do not publish participant data
+# =========================================
+
+# Participant results, recordings, and personal data
+results/
+
+# Whisper model files
+whisper_model/
+*.pt
+
+# Local release ZIP files
+NamingApp_v*.zip
+
+# Windows temporary files
+Thumbs.db
+desktop.ini
+
